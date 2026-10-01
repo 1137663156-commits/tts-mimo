@@ -1,0 +1,17 @@
+# Secrets — never commit this
+.env
+*.env
+!.env.example
+
+# Generated audio
+*.mp3
+*.wav
+*.wma
+*.opus
+*.flac
+*.pcm
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
